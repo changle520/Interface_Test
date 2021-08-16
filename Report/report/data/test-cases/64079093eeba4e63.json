@@ -1,0 +1,91 @@
+{
+  "uid" : "64079093eeba4e63",
+  "name" : "执行阿里云MPS转码切片-传入参数encryption，参数的值正确",
+  "fullName" : "meiziku.test_selfvideo#test_originalvideo_mps_transcode003",
+  "historyId" : "48752982388acd208b91a1c46df9cc60",
+  "time" : {
+    "start" : 1629098608293,
+    "stop" : 1629098608328,
+    "duration" : 35
+  },
+  "description" : "传入参数encryption，参数的值正确",
+  "descriptionHtml" : "<p>传入参数encryption，参数的值正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098603377,
+      "stop" : 1629098603411,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数encryption，参数的值正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b42b5b03834657bb",
+      "name" : "log",
+      "source" : "b42b5b03834657bb.txt",
+      "type" : "text/plain",
+      "size" : 1589
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "14268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64079093eeba4e63.json",
+  "parameterValues" : [ ]
+}

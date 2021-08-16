@@ -1,0 +1,165 @@
+{
+  "uid" : "923d696406d65fac",
+  "name" : "编辑影片详情-播放格式为1",
+  "fullName" : "meiziku.test_selfvideo#test_modify_originalvideo010",
+  "historyId" : "27737f618bdfc1767ff0ef0121f86de4",
+  "time" : {
+    "start" : 1629106226834,
+    "stop" : 1629106226895,
+    "duration" : 61
+  },
+  "description" : "传入参数id,playerFormatKey,playerFormatKey=1",
+  "descriptionHtml" : "<p>传入参数id,playerFormatKey,playerFormatKey=1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629106222510,
+      "stop" : 1629106222537,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数id,playerFormatKey,playerFormatKey=1",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61f16a576da5a83d",
+      "name" : "log",
+      "source" : "61f16a576da5a83d.txt",
+      "type" : "text/plain",
+      "size" : 1488
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "21380-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb934ea866ea7ffa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099898831,
+        "stop" : 1629099898863,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "c56b2933124ff67b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099483213,
+        "stop" : 1629099483254,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "4eb4a083692e95e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098955602,
+        "stop" : 1629098955647,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "5acb08bc3664e3cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098683022,
+        "stop" : 1629098683106,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "df18583b9000cf99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098606160,
+        "stop" : 1629098606208,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "7848cfeca6a78824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098297090,
+        "stop" : 1629098297146,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "235e1ee41b515561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098230128,
+        "stop" : 1629098230200,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "174fe3392d104cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629096881077,
+        "stop" : 1629096881121,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "6e5ed5318bf704ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629095826835,
+        "stop" : 1629095826909,
+        "duration" : 74
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "923d696406d65fac.json",
+  "parameterValues" : [ ]
+}

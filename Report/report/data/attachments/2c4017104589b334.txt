@@ -1,0 +1,14 @@
+[32mINFO    [0m root:meizikuApi.py:40 请求头:{'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': '9aQ80eNaXLZPFdlzjNhMOqhkPPI='}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://sit.mam.api.arpara-platform.com:80 "GET /mam-core/manager/v1/skgarden/sync HTTP/1.1" 200 25
+[32mINFO    [0m root:request.py:63 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:request.py:64 [ api name    ] : sync
+[32mINFO    [0m root:request.py:65 [ request url ] : http://sit.mam.api.arpara-platform.com/mam-core/manager/v1/skgarden/sync
+[32mINFO    [0m root:request.py:66 [ request paramer ] : None
+[32mINFO    [0m root:request.py:67 [ request hearder ] : {'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': '9aQ80eNaXLZPFdlzjNhMOqhkPPI='}
+[32mINFO    [0m root:request.py:68 [ request data ] : None
+[32mINFO    [0m root:request.py:69 [ request json ] : None
+[32mINFO    [0m root:request.py:70 [ method      ] : GET
+[32mINFO    [0m root:request.py:71 [ status code ] : 200
+[32mINFO    [0m root:request.py:72 [ time total  ] : 0.012993 s
+[32mINFO    [0m root:request.py:75 [ response json ] : {'code': '0', 'value': True}
+[32mINFO    [0m root:request.py:78 ----------------------------------------------------------------------------------------------------

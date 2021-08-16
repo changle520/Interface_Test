@@ -1,0 +1,98 @@
+{
+  "uid" : "32bf75e24b7e4105",
+  "name" : "获取自有原片列表-分页-传入参数page",
+  "fullName" : "meiziku.test_selfvideo#test_originalvideo_list003",
+  "historyId" : "0550a2c2879396e564e3d780696d939d",
+  "time" : {
+    "start" : 1629098684678,
+    "stop" : 1629098684803,
+    "duration" : 125
+  },
+  "description" : "传入参数page",
+  "descriptionHtml" : "<p>传入参数page</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: assert '0' == '1'\n  - 1\n  + 0",
+  "statusTrace" : "login_start = '246b7330-4f35-4bfe-8789-831baafa696b'\n\n    @pytest.mark.xfail\n    @allure.feature(\"媒资库后台管理\")\n    @allure.story(\"管理后台自有影片接口\")\n    @allure.title(\"获取自有原片列表-分页-传入参数page\")\n    @allure.description(\"传入参数page\")\n    def test_originalvideo_list003(login_start):\n            token =login_start\n            method=data[\"originalvideo_list\"][2][\"Method\"]\n            apiurl=data[\"originalvideo_list\"][2][\"ApiUrl\"]\n            params = data[\"originalvideo_list\"][2][\"Params\"]\n            response=send_requests(method,apiurl,token,params=params)\n            # 断言\n>           assert response['code'] == '1'\nE           AssertionError: assert '0' == '1'\nE             - 1\nE             + 0\n\nmeiziku\\test_selfvideo.py:444: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098680107,
+      "stop" : 1629098680144,
+      "duration" : 37
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数page",
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: assert '0' == '1'\n  - 1\n  + 0",
+    "statusTrace" : "login_start = '246b7330-4f35-4bfe-8789-831baafa696b'\n\n    @pytest.mark.xfail\n    @allure.feature(\"媒资库后台管理\")\n    @allure.story(\"管理后台自有影片接口\")\n    @allure.title(\"获取自有原片列表-分页-传入参数page\")\n    @allure.description(\"传入参数page\")\n    def test_originalvideo_list003(login_start):\n            token =login_start\n            method=data[\"originalvideo_list\"][2][\"Method\"]\n            apiurl=data[\"originalvideo_list\"][2][\"ApiUrl\"]\n            params = data[\"originalvideo_list\"][2][\"Params\"]\n            response=send_requests(method,apiurl,token,params=params)\n            # 断言\n>           assert response['code'] == '1'\nE           AssertionError: assert '0' == '1'\nE             - 1\nE             + 0\n\nmeiziku\\test_selfvideo.py:444: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7af24ff671bf753",
+      "name" : "log",
+      "source" : "c7af24ff671bf753.txt",
+      "type" : "text/plain",
+      "size" : 28497
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "3232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "32bf75e24b7e4105.json",
+  "parameterValues" : [ ]
+}

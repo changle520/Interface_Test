@@ -1,0 +1,91 @@
+{
+  "uid" : "c37afa7122b786f5",
+  "name" : "获取自有原片列表-分页",
+  "fullName" : "meiziku.test_selfvideo#test_originalvideo_list001",
+  "historyId" : "18174d5956aa738e8dc747557452fb0f",
+  "time" : {
+    "start" : 1629098298175,
+    "stop" : 1629098298219,
+    "duration" : 44
+  },
+  "description" : "传入参数page,size,q 参数值正确",
+  "descriptionHtml" : "<p>传入参数page,size,q 参数值正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098294756,
+      "stop" : 1629098294783,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数page,size,q 参数值正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "907cc541f1ec51df",
+      "name" : "log",
+      "source" : "907cc541f1ec51df.txt",
+      "type" : "text/plain",
+      "size" : 6667
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "26052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c37afa7122b786f5.json",
+  "parameterValues" : [ ]
+}

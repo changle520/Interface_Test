@@ -1,0 +1,166 @@
+{
+  "uid" : "6c3b1b5f549682d3",
+  "name" : "执行阿里云MPS转码切片-传入参数encryption、id、templateId、duration，参数的值正确",
+  "fullName" : "meiziku.test_selfvideo#test_originalvideo_mps_transcode008",
+  "historyId" : "043116d67b211e204802ee3612a83f31",
+  "time" : {
+    "start" : 1629106229560,
+    "stop" : 1629106229598,
+    "duration" : 38
+  },
+  "description" : "传入参数encryption、id、templateId、duration，参数的值正确",
+  "descriptionHtml" : "<p>传入参数encryption、id、templateId、duration，参数的值正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629106222510,
+      "stop" : 1629106222537,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数encryption、id、templateId、duration，参数的值正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74065a8e37cab1a2",
+      "name" : "log",
+      "source" : "74065a8e37cab1a2.txt",
+      "type" : "text/plain",
+      "size" : 1680
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "21380-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "602c5e69eca914f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099900903,
+        "stop" : 1629099900932,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "7b2b769110f0a8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099485597,
+        "stop" : 1629099485641,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "638882f1c286b98e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098958776,
+        "stop" : 1629098958825,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "2dffeae2cd93527",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098685572,
+        "stop" : 1629098685602,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "79333dd15217e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098608467,
+        "stop" : 1629098608496,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "a16ced772b5b4b82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098299334,
+        "stop" : 1629098299376,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "7d83ceb1b91dff3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629098233128,
+        "stop" : 1629098233188,
+        "duration" : 60
+      }
+    }, {
+      "uid" : "52a584b4185eafdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629096883347,
+        "stop" : 1629096883382,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "1b7c9c6c37c70c97",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
+      "time" : {
+        "start" : 1629095828947,
+        "stop" : 1629095828987,
+        "duration" : 40
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c3b1b5f549682d3.json",
+  "parameterValues" : [ ]
+}

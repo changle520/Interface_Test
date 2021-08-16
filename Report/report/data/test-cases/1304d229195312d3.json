@@ -1,0 +1,91 @@
+{
+  "uid" : "1304d229195312d3",
+  "name" : "4k花园同步影片",
+  "fullName" : "meiziku.test_fourkgarden#test_skgarden_sync",
+  "historyId" : "2b58c8531f370c3470b509a039861776",
+  "time" : {
+    "start" : 1629098604422,
+    "stop" : 1629098604456,
+    "duration" : 34
+  },
+  "description" : "不传入参数",
+  "descriptionHtml" : "<p>不传入参数</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098603377,
+      "stop" : 1629098603411,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "不传入参数",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35b140b968f78c3d",
+      "name" : "log",
+      "source" : "35b140b968f78c3d.txt",
+      "type" : "text/plain",
+      "size" : 1432
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台4k花园接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_fourkgarden"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "14268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_fourkgarden"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1304d229195312d3.json",
+  "parameterValues" : [ ]
+}

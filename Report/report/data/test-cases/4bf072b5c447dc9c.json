@@ -1,0 +1,181 @@
+{
+  "uid" : "4bf072b5c447dc9c",
+  "name" : "4k花园同步记录-传入参数page,size、page的内容为1,size的内容为空",
+  "fullName" : "meiziku.test_fourkgarden#test_skgarden_synclog003",
+  "historyId" : "44bf0a8187e1b762600211904c587794",
+  "time" : {
+    "start" : 1629106224659,
+    "stop" : 1629106224689,
+    "duration" : 30
+  },
+  "description" : "传入参数page,size",
+  "descriptionHtml" : "<p>传入参数page,size</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+  "statusTrace" : "login_start = '246b7330-4f35-4bfe-8789-831baafa696b'\n\n    @pytest.mark.xfail\n    @allure.feature(\"媒资库后台管理\")\n    @allure.story(\"管理后台4k花园接口\")\n    @allure.title(\"4k花园同步记录-传入参数page,size、page的内容为1,size的内容为空\")\n    @allure.description(\"传入参数page,size\")\n    def test_skgarden_synclog003(login_start):\n            token =login_start\n            method=data[\"skgarden_synclog\"][2][\"Method\"]\n            apiurl=data[\"skgarden_synclog\"][2][\"ApiUrl\"]\n            params = data[\"skgarden_synclog\"][2][\"Params\"]\n            response=send_requests(method,apiurl,token,params=params)\n            # 断言\n>           assert response['code'] == '0'\nE           AssertionError: assert '99999' == '0'\nE             - 0\nE             + 99999\n\nmeiziku\\test_fourkgarden.py:78: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629106222510,
+      "stop" : 1629106222537,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数page,size",
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+    "statusTrace" : "login_start = '246b7330-4f35-4bfe-8789-831baafa696b'\n\n    @pytest.mark.xfail\n    @allure.feature(\"媒资库后台管理\")\n    @allure.story(\"管理后台4k花园接口\")\n    @allure.title(\"4k花园同步记录-传入参数page,size、page的内容为1,size的内容为空\")\n    @allure.description(\"传入参数page,size\")\n    def test_skgarden_synclog003(login_start):\n            token =login_start\n            method=data[\"skgarden_synclog\"][2][\"Method\"]\n            apiurl=data[\"skgarden_synclog\"][2][\"ApiUrl\"]\n            params = data[\"skgarden_synclog\"][2][\"Params\"]\n            response=send_requests(method,apiurl,token,params=params)\n            # 断言\n>           assert response['code'] == '0'\nE           AssertionError: assert '99999' == '0'\nE             - 0\nE             + 99999\n\nmeiziku\\test_fourkgarden.py:78: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0d39dd8397b04b4",
+      "name" : "log",
+      "source" : "a0d39dd8397b04b4.txt",
+      "type" : "text/plain",
+      "size" : 1473
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "story",
+    "value" : "管理后台4k花园接口"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_fourkgarden"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "21380-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_fourkgarden"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c180d96d1b1111a",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629099897684,
+        "stop" : 1629099897731,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "533b4d5cd8edfd5e",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629099481966,
+        "stop" : 1629099482006,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "c91d67ade5b0292",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629098954412,
+        "stop" : 1629098954441,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "7fcef93fa62eaee1",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629098681458,
+        "stop" : 1629098681534,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "d268f55b6266c4fa",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629098604655,
+        "stop" : 1629098604695,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "18a3fa78b010628c",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629098295766,
+        "stop" : 1629098295809,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "b30a9e980a06bb3a",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629098228649,
+        "stop" : 1629098228697,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "ce292ff5812f6cc1",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629096879833,
+        "stop" : 1629096879872,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "71de0cff3b1d9a3",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert '99999' == '0'\n  - 0\n  + 99999",
+      "time" : {
+        "start" : 1629095825631,
+        "stop" : 1629095825677,
+        "duration" : 46
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "4bf072b5c447dc9c.json",
+  "parameterValues" : [ ]
+}

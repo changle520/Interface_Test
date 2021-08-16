@@ -1,0 +1,91 @@
+{
+  "uid" : "d888cd47f74437bb",
+  "name" : "创建appkey-传入参数q,参数值在数据库中不存在",
+  "fullName" : "meiziku.test_accesskey#test_createAccesskey_001",
+  "historyId" : "3d6f848c4510363a070ac5d169d49eb0",
+  "time" : {
+    "start" : 1629098603829,
+    "stop" : 1629098603937,
+    "duration" : 108
+  },
+  "description" : "传入参数q,参数值正确",
+  "descriptionHtml" : "<p>传入参数q,参数值正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098603377,
+      "stop" : 1629098603411,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数q,参数值正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b92d703851244f2f",
+      "name" : "log",
+      "source" : "b92d703851244f2f.txt",
+      "type" : "text/plain",
+      "size" : 3099
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台access接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_accesskey"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "14268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_accesskey"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d888cd47f74437bb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "7479cd093d28d68d",
+  "name" : "编辑影片详情-编辑地区",
+  "fullName" : "meiziku.test_selfvideo#test_modify_originalvideo014",
+  "historyId" : "7e9d453d1acc4c09ad846cfc13718fb0",
+  "time" : {
+    "start" : 1629098230478,
+    "stop" : 1629098230542,
+    "duration" : 64
+  },
+  "description" : "传入参数id,regionId",
+  "descriptionHtml" : "<p>传入参数id,regionId</p>\n",
+  "status" : "passed",
+  "statusMessage" : "XPASS",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098227101,
+      "stop" : 1629098227142,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数id,regionId",
+    "status" : "passed",
+    "statusMessage" : "XPASS",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "14d13eda4792da58",
+      "name" : "log",
+      "source" : "14d13eda4792da58.txt",
+      "type" : "text/plain",
+      "size" : 1483
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "29668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "7479cd093d28d68d.json",
+  "parameterValues" : [ ]
+}

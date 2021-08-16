@@ -1,0 +1,91 @@
+{
+  "uid" : "73d037efc55d131c",
+  "name" : "获取4K花园影片列表-分页-传入参数page,size,q q的值为空",
+  "fullName" : "meiziku.test_fourkgarden#test_skgarden_skgardenvideo_list_003",
+  "historyId" : "5ce597cf7ed828fa8768fa0fd140d3c0",
+  "time" : {
+    "start" : 1629096880190,
+    "stop" : 1629096880240,
+    "duration" : 50
+  },
+  "description" : "传入参数page,size,q q的值为空",
+  "descriptionHtml" : "<p>传入参数page,size,q q的值为空</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629096878744,
+      "stop" : 1629096878773,
+      "duration" : 29
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数page,size,q q的值为空",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7412d8f78b90d13",
+      "name" : "log",
+      "source" : "e7412d8f78b90d13.txt",
+      "type" : "text/plain",
+      "size" : 27643
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台4k花园接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_fourkgarden"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "28560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_fourkgarden"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73d037efc55d131c.json",
+  "parameterValues" : [ ]
+}

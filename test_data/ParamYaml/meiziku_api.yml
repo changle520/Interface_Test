@@ -1,0 +1,570 @@
+ get_appkey:
+   -
+      Describe: 传入参数q,参数值正确
+      Method: GET
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            q: 浙江露熙2
+   -
+      Describe: 传入参数q,参数值不正确
+      Method: GET
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            q: 测试测试测试
+   -
+      Describe: 传入参数q,参数值为空
+      Method: GET
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            q:
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/access/appkey
+ create_appkey:
+   -
+      Describe: 传入参数name,参数值在数据库中不存在
+      Method: POST
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            name: 测试0812001
+   -
+      Describe: 传入参数name,参数值在数据库中不存在-用于初始化
+      Method: POST
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            name: 测试08120002
+   -
+      Describe: 传入参数name,参数值在数据库中存在
+      Method: POST
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            name: 浙江露熙
+   -
+      Describe: 传入参数name,参数值为空
+      Method: POST
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            name:
+   -
+      Describe: 不传参数
+      Method: POST
+      ApiUrl: manager/v1/access/appkey
+ delete_appkey:
+   -
+      Describe: 传入参数id,参数值在数据库中存在
+      Method: DELETE
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            id: 1536744739649507332
+   -
+      Describe: 传入参数id,参数值在数据库中不存在
+      Method: DELETE
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            id: 123456789
+   -
+      Describe: 传入参数,参数值为空
+      Method: DELETE
+      ApiUrl: manager/v1/access/appkey
+      Params:
+            id:
+   -
+      Describe: 传入参数,参数值为空
+      Method: DELETE
+      ApiUrl: manager/v1/access/appkey
+ login:
+   -
+      Describe: 传入正确的用户名、密码
+      Params:
+            username: admin
+            password: 123456789
+   -
+      Describe: 传入不正确的用户名、密码
+      Params:
+            username: test
+            password: 123456
+   -
+      Describe: 传入正确的用户名、错误的密码
+      Params:
+            username: admin
+            password: 8888
+   -
+      Describe: 传入错误的用户名、正确的密码
+      Params:
+            username: test
+            password: 1234567889
+   -
+      Describe: 传入用户名、密码为空
+      Params:
+            username:
+            password:
+   -
+      Describe: 不传密码
+      Params:
+            username: admin
+   -
+      Describe: 不传用户名
+      Params:
+            password: 12345679
+ skgarden_sync:
+   -
+      Describe: 不传入参数,发送请求
+      Method: GET
+      ApiUrl: manager/v1/skgarden/sync
+ skgarden_synclog:
+   -
+      Describe: 传入参数page、size
+      Method: GET
+      ApiUrl: manager/v1/skgarden/sync/log
+      Params:
+            page: 1
+            size: 20
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/skgarden/sync/log
+   -
+      Describe: 传入参数page、size
+      Method: GET
+      ApiUrl: manager/v1/skgarden/sync/log
+      Params:
+            page: 1
+            size:
+   -
+      Describe: 传入参数page、size
+      Method: GET
+      ApiUrl: manager/v1/skgarden/sync/log
+      Params:
+            page:
+            size: 20
+   -
+      Describe: 传入参数page、size
+      Method: GET
+      ApiUrl: manager/v1/skgarden/sync/log
+      Params:
+            page:
+            size:
+ skgarden_sync_status:
+   -
+      Describe: 不传入参数,发送请求
+      Method: GET
+      ApiUrl: manager/v1/skgarden/sync/status
+ skgardenvideo_list:
+   -
+      Describe: 传入参数page,size,q,参数值正确
+      Method: GET
+      ApiUrl: manager/v1/skgardenvideo/list
+      Params:
+            page: 1
+            size: 20
+            q: 家庭健身计划
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/skgardenvideo/list
+   -
+      Describe: 传入参数page,size,q,q的值为空
+      Method: GET
+      ApiUrl: manager/v1/skgardenvideo/list
+      Params:
+            page: 1
+            size: 20
+            q:
+   -
+      Describe: 传入参数page
+      Method: GET
+      ApiUrl: manager/v1/skgardenvideo/list
+      Params:
+            page: 1
+            size:
+   -
+      Describe: 传入参数size
+      Method: GET
+      ApiUrl: manager/v1/skgardenvideo/list
+      Params:
+            page:
+            size: 20
+ core_config:
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/core/config
+ job_list:
+   -
+      Describe: 传入参数page,size,q,参数值正确
+      Method: GET
+      ApiUrl: manager/v1/job/list
+      Params:
+            page: 1
+            size: 20
+            q: 123
+ get_originalvideo:
+   -
+      Describe: 传入参数id,参数值正确
+      Method: GET
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/originalvideo
+   -
+      Describe: 传入参数id,参数值不正确
+      Method: GET
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: aabbcc
+   -
+      Describe: 传入参数id,参数值不正确
+      Method: GET
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id:
+ modify_originalvideo:
+   -
+      Describe: 传入参数id,actors,参数值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            actors: 张三
+   -
+      Describe: 不传参数
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+   -
+      Describe: 传入参数id,参数值为空
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id:
+   -
+      Describe: 传入参数id,background
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: "1531966251444948992"
+            background: poster/1628839565947.png
+   -
+      Describe: 传入参数id,description
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            description: 8888888
+   -
+      Describe: 传入参数id,id不正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 666666
+   -
+      Describe: 传入参数id,director
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            director: dir8888888
+   -
+      Describe: 传入参数id,dubbingId
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            dubbingId: 27
+   -
+      Describe: 传入参数id,horizontal
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            horizontal: poster/1627539891801.png
+   -
+      Describe: 传入参数id、playerFormatKey playerFormatKeyz=1
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            playerFormatKey: 1
+   -
+      Describe: 传入参数id、playerFormatKey playerFormatKeyz=2
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            playerFormatKey: 2
+   -
+      Describe: 传入参数id、playerFormatKey playerFormatKeyz=3
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            playerFormatKey: 3
+   -
+      Describe: 传入参数id、playerFormatKey playerFormatKeyz=为字符串
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            playerFormatKey: abc
+   -
+      Describe: 传入参数id、regionId
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            regionId: 156
+   -
+      Describe: 传入参数id、score
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            score: 88
+   -
+      Describe: 传入参数id、shortDescription
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            shortDescription: 88
+   -
+      Describe: 传入参数id、vertical
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            vertical: poster/1627539895413.png
+   -
+      Describe: 传入参数id、videoFormatKey
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            videoFormatKey: 1
+   -
+      Describe: 传入参数id、videoFormatKey
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            videoFormatKey: 2
+   -
+      Describe: 传入参数id、videoFormatKey
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            videoFormatKey: 3
+   -
+      Describe: 传入参数id、videoFormatKey
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            videoFormatKey: abc
+   -
+      Describe: 传入参数id、videoFormatKey
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            videoName: abc
+   -
+      Describe: 传入参数id、videoFormatKey
+      Method: POST
+      ApiUrl: manager/v1/originalvideo
+      Params:
+            id: 1531966251444948992
+            years: 2021
+ originalvideo_list:
+   -
+      Describe: 传入参数page,size,q,参数值正确
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/list
+      Params:
+            page: 1
+            size: 20
+            q: 漫威集锦
+   -
+      Describe: 传入参数page,size,q,q的值为空
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/list
+      Params:
+            page: 1
+            size: 20
+            q:
+   -
+      Describe: 传入参数page
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/list
+      Params:
+            page: 1
+   -
+      Describe: 传入参数size
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/list
+      Params:
+            size: 20
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/list
+ originalvideo_mps_snapshot:
+   -
+      Describe: 传入参数id,参数值正确
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/mps/snapshot
+      Params:
+            id: 1531966251444948992
+   -
+      Describe: 传入参数id,参数值不存在
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/mps/snapshot
+      Params:
+            id: 1234567890
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/mps/snapshot
+
+ originalvideo_mps_transcode:
+   -
+      Describe: 传入参数encryption,id,templateId,参数值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+      Params:
+            encryption: true
+            id: 1531966251071655943
+            templateId: 45add5be950547b4bd1b070c62603c1c
+   -
+      Describe: 不传参数
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+   -
+      Describe: 传入参数encryption，参数的值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+      Params:
+            encryption: true
+   -
+      Describe: 传入参数templateId，参数的值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+      Params:
+            templateId: 45add5be950547b4bd1b070c62603c1c
+   -
+      Describe: 传入参数id，参数的值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+      Params:
+            id: 1531966251071655943
+   -
+      Describe: 传入参数encryption,id,templateId,seek,duration,参数值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+      Params:
+            encryption: true
+            id: 1531966251071655943
+            templateId: 45add5be950547b4bd1b070c62603c1c
+            seek: 20
+            duration: 10
+   -
+      Describe: 传入参数encryption,id,templateId,seek,参数值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+      Params:
+            encryption: true
+            id: 1531966251071655943
+            templateId: 45add5be950547b4bd1b070c62603c1c
+            seek: 20
+   -
+      Describe: 传入参数encryption,id,templateId,duration,参数值正确
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/mps/transcode
+      headers:
+            Content-Type: application/x-www-form-urlencoded
+      Params:
+            encryption: true
+            id: 1531966251071655943
+            templateId: 45add5be950547b4bd1b070c62603c1c
+            duration: 10
+ originalvideo_mps_sync_job:
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/mps/sync/job
+ originalvideo_sync_template:
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/sync/template
+ originalvideo_sync_video:
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/sync/video
+ originalvideo_transcodetemplatelist:
+   -
+      Describe: 不传参数
+      Method: GET
+      ApiUrl: manager/v1/originalvideo/transcodetemplatelist
+ originalvideo_delete:
+   -
+      Describe: 传入正确的ids
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/delete
+      Params:
+            ids: 1531966251126181897
+   -
+      Describe: 传入不正确的ids
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/delete
+      Params:
+            ids: 6666666666666
+   -
+      Describe: 传入不正确的ids,ids中有字符串
+      Method: POST
+      ApiUrl: manager/v1/originalvideo/delete
+      Params:
+            ids: abcdefghijklmn
+ originalvideo_delete_alldefination:
+   -
+      Describe: url拼接正确的id
+      Method: DELETE
+      ApiUrl: manager/v1/originalvideo/delete/alldefination/1531966251126181897
+   -
+      Describe: url拼接不正确的id
+      Method: DELETE
+      ApiUrl: manager/v1/originalvideo/delete/alldefination/12345679
+ originalvideo_standard_m3u8:
+   -
+      Describe: url拼接正确的id
+      Method: DELETE
+      ApiUrl: manager/v1/originalvideo/standard/m3u8/1531966251126181897
+   -
+      Describe: url拼接不正确的id
+      Method: DELETE
+      ApiUrl: manager/v1/originalvideo/standard/m3u8/12345679
+
+
+
+
+
+

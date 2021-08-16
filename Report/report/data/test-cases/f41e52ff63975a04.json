@@ -1,0 +1,96 @@
+{
+  "uid" : "f41e52ff63975a04",
+  "name" : "执行阿里云MPS转码切片-传入参数encryption，参数的值正确",
+  "fullName" : "meiziku.test_selfvideo#test_originalvideo_mps_transcode003",
+  "historyId" : "48752982388acd208b91a1c46df9cc60",
+  "time" : {
+    "start" : 1629095828702,
+    "stop" : 1629095828740,
+    "duration" : 38
+  },
+  "description" : "传入参数encryption，参数的值正确",
+  "descriptionHtml" : "<p>传入参数encryption，参数的值正确</p>\n",
+  "status" : "passed",
+  "statusMessage" : "XPASS",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629095824265,
+      "stop" : 1629095824295,
+      "duration" : 30
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数encryption，参数的值正确",
+    "status" : "passed",
+    "statusMessage" : "XPASS",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4af8f5691f653401",
+      "name" : "log",
+      "source" : "4af8f5691f653401.txt",
+      "type" : "text/plain",
+      "size" : 1589
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "11284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "f41e52ff63975a04.json",
+  "parameterValues" : [ ]
+}

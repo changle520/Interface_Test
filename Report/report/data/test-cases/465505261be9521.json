@@ -1,0 +1,91 @@
+{
+  "uid" : "465505261be9521",
+  "name" : "获取appkey-传入参数q,参数值不正确",
+  "fullName" : "meiziku.test_accesskey#test_getAccesskey_002",
+  "historyId" : "a3323140a18f8da5c750319c80795cc4",
+  "time" : {
+    "start" : 1629098227245,
+    "stop" : 1629098227297,
+    "duration" : 52
+  },
+  "description" : "传入参数q,参数值不正确",
+  "descriptionHtml" : "<p>传入参数q,参数值不正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098227101,
+      "stop" : 1629098227142,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数q,参数值不正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "674db43e7bfaa180",
+      "name" : "log",
+      "source" : "674db43e7bfaa180.txt",
+      "type" : "text/plain",
+      "size" : 1569
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台access接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_accesskey"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "29668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_accesskey"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "465505261be9521.json",
+  "parameterValues" : [ ]
+}

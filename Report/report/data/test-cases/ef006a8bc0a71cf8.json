@@ -1,0 +1,91 @@
+{
+  "uid" : "ef006a8bc0a71cf8",
+  "name" : "编辑影片详情-编辑横板海报",
+  "fullName" : "meiziku.test_selfvideo#test_modify_originalvideo017",
+  "historyId" : "76c5f08b298257a61ae6fb0dd2e98c89",
+  "time" : {
+    "start" : 1629098606531,
+    "stop" : 1629098606570,
+    "duration" : 39
+  },
+  "description" : "传入参数id,vertical",
+  "descriptionHtml" : "<p>传入参数id,vertical</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098603377,
+      "stop" : 1629098603411,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数id,vertical",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c530a7658d01131a",
+      "name" : "log",
+      "source" : "c530a7658d01131a.txt",
+      "type" : "text/plain",
+      "size" : 1505
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "14268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef006a8bc0a71cf8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,14 @@
+[32mINFO    [0m root:meizikuApi.py:40 请求头:{'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': 'Mw8tNREwMEscJCRtvogmjM6v2Xs='}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://sit.mam.api.arpara-platform.com:80 "GET /mam-core/manager/v1/skgardenvideo/list?page=1&size=20&q=%E5%AE%B6%E5%BA%AD%E5%81%A5%E8%BA%AB%E8%AE%A1%E5%88%92 HTTP/1.1" 200 1113
+[32mINFO    [0m root:request.py:63 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:request.py:64 [ api name    ] : list
+[32mINFO    [0m root:request.py:65 [ request url ] : http://sit.mam.api.arpara-platform.com/mam-core/manager/v1/skgardenvideo/list?page=1&size=20&q=%E5%AE%B6%E5%BA%AD%E5%81%A5%E8%BA%AB%E8%AE%A1%E5%88%92
+[32mINFO    [0m root:request.py:66 [ request paramer ] : {'page': 1, 'size': 20, 'q': '家庭健身计划'}
+[32mINFO    [0m root:request.py:67 [ request hearder ] : {'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': 'Mw8tNREwMEscJCRtvogmjM6v2Xs='}
+[32mINFO    [0m root:request.py:68 [ request data ] : None
+[32mINFO    [0m root:request.py:69 [ request json ] : None
+[32mINFO    [0m root:request.py:70 [ method      ] : GET
+[32mINFO    [0m root:request.py:71 [ status code ] : 200
+[32mINFO    [0m root:request.py:72 [ time total  ] : 0.050405 s
+[32mINFO    [0m root:request.py:75 [ response json ] : {'code': '0', 'value': {'total': 1, 'pages': 1, 'current': 1, 'data': [{'id': '38409', 'createDate': 1627481233000, 'lastModifiedDate': 1627481233000, 'publish': True, 'seriesCode': '157542796631192247', 'contentId': '38409', 'name': '家庭健身计划', 'description': '现在越来越多的人都非常注重健身，但是因为工作的原因，没有太多的时间去健身房，而这并不能阻挡我们收获好身材！本系列课程即为大家制定了简单的家庭健身计划，利用碎片化时间提高身体素质，同时解锁“一字肩”“马甲线”“小鸟腿”。', 'actorDisplay': '', 'writerDisplay': '', 'currentNum': 5, 'volumeCount': 5, 'language': '汉语普通话', 'online': '2019-12-09 16:52:48', 'offline': None, 'originalCountry': '中国大陆', 'programType': '精致生活', 'programType2': '健身', 'releaseYear': '2019', 'series': None, 'skPosterAddr': '', 'skPosterAddr2': 'http://img.cp68.ott.cibntv.net/2019/12/4/1575427936337.jpg', 'skPosterAddr3': 'http://img.cp68.ott.cibntv.net/2019/12/4/1575427947596.jpg', 'skScore': '0', 'status': '1', 'updateTime': '2021-08-09 11:49:37', 'seriesType': 1, 'skPosterAddr4': None}]}}
+[32mINFO    [0m root:request.py:78 ----------------------------------------------------------------------------------------------------

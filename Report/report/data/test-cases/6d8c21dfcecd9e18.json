@@ -1,0 +1,91 @@
+{
+  "uid" : "6d8c21dfcecd9e18",
+  "name" : "4k花园当前同步状态",
+  "fullName" : "meiziku.test_fourkgarden#test_skgarden_syncs_status",
+  "historyId" : "b2aaf339c4f55c75fbb8a49a815b6d43",
+  "time" : {
+    "start" : 1629098228310,
+    "stop" : 1629098228393,
+    "duration" : 83
+  },
+  "description" : "不传入参数",
+  "descriptionHtml" : "<p>不传入参数</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098227101,
+      "stop" : 1629098227142,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "不传入参数",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63d80cb56f4cce7d",
+      "name" : "log",
+      "source" : "63d80cb56f4cce7d.txt",
+      "type" : "text/plain",
+      "size" : 1453
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台4k花园接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_fourkgarden"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "29668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_fourkgarden"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d8c21dfcecd9e18.json",
+  "parameterValues" : [ ]
+}

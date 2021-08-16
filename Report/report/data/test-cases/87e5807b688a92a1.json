@@ -1,0 +1,91 @@
+{
+  "uid" : "87e5807b688a92a1",
+  "name" : "获取4K花园影片列表-分页-传入参数page,size,q 参数值正确",
+  "fullName" : "meiziku.test_fourkgarden#test_skgarden_skgardenvideo_list_001",
+  "historyId" : "424e50ab32e314558d79e664de079f87",
+  "time" : {
+    "start" : 1629098228915,
+    "stop" : 1629098228979,
+    "duration" : 64
+  },
+  "description" : "传入参数page,size,q 参数值正确",
+  "descriptionHtml" : "<p>传入参数page,size,q 参数值正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098227101,
+      "stop" : 1629098227142,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "传入参数page,size,q 参数值正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f6e83ecb9df50811",
+      "name" : "log",
+      "source" : "f6e83ecb9df50811.txt",
+      "type" : "text/plain",
+      "size" : 2784
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台4k花园接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_fourkgarden"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "29668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_fourkgarden"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87e5807b688a92a1.json",
+  "parameterValues" : [ ]
+}

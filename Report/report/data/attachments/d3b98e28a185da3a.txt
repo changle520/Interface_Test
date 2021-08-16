@@ -1,0 +1,14 @@
+[32mINFO    [0m root:meizikuApi.py:40 请求头:{'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': '9aQ80eNaXLZPFdlzjNhMOqhkPPI='}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://sit.mam.api.arpara-platform.com:80 "GET /mam-core/manager/v1/skgarden/sync/log HTTP/1.1" 200 1026
+[32mINFO    [0m root:request.py:63 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:request.py:64 [ api name    ] : log
+[32mINFO    [0m root:request.py:65 [ request url ] : http://sit.mam.api.arpara-platform.com/mam-core/manager/v1/skgarden/sync/log
+[32mINFO    [0m root:request.py:66 [ request paramer ] : None
+[32mINFO    [0m root:request.py:67 [ request hearder ] : {'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': '9aQ80eNaXLZPFdlzjNhMOqhkPPI='}
+[32mINFO    [0m root:request.py:68 [ request data ] : None
+[32mINFO    [0m root:request.py:69 [ request json ] : None
+[32mINFO    [0m root:request.py:70 [ method      ] : GET
+[32mINFO    [0m root:request.py:71 [ status code ] : 200
+[32mINFO    [0m root:request.py:72 [ time total  ] : 0.027329 s
+[32mINFO    [0m root:request.py:75 [ response json ] : {'code': '0', 'value': {'total': 68, 'pages': 7, 'current': 1, 'data': [{'updateStartTime': 1629094818000, 'updateDurationTime': 1629095825000, 'num': 0, 'status': 'syncing'}, {'updateStartTime': 1629093516000, 'updateDurationTime': 1629094818000, 'num': 15, 'status': 'success'}, {'updateStartTime': 1629092018000, 'updateDurationTime': 1629093516000, 'num': 18, 'status': 'success'}, {'updateStartTime': 1629091957000, 'updateDurationTime': 1629092018000, 'num': 0, 'status': 'success'}, {'updateStartTime': 1629090632000, 'updateDurationTime': 1629091957000, 'num': 0, 'status': 'success'}, {'updateStartTime': 1629090577000, 'updateDurationTime': 1629090632000, 'num': 0, 'status': 'success'}, {'updateStartTime': 1629090482000, 'updateDurationTime': 1629090577000, 'num': 0, 'status': 'success'}, {'updateStartTime': 1629084333000, 'updateDurationTime': 1629090482000, 'num': 0, 'status': 'success'}, {'updateStartTime': 1629084172000, 'updateDurationTime': 1629084333000, 'num': 0, 'status': 'success'}, {'updateStartTime': 1629084112000, 'updateDurationTime': 1629084172000, 'num': 0, 'status': 'success'}]}}
+[32mINFO    [0m root:request.py:78 ----------------------------------------------------------------------------------------------------

@@ -1,0 +1,98 @@
+{
+  "uid" : "26508720666c7a7",
+  "name" : "删除appkey-不传参数",
+  "fullName" : "meiziku.test_accesskey#test_deleteAccesskey_004",
+  "historyId" : "499950388ddd03f3618a07930716cc56",
+  "time" : {
+    "start" : 1629098228177,
+    "stop" : 1629098228218,
+    "duration" : 41
+  },
+  "description" : "不传参数",
+  "descriptionHtml" : "<p>不传参数</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nKeyError: 'value'",
+  "statusTrace" : "login_start = '246b7330-4f35-4bfe-8789-831baafa696b'\n\n    @pytest.mark.xfail\n    @allure.feature(\"媒资库后台管理\")\n    @allure.story(\"管理后台access接口\")\n    @allure.title(\"删除appkey-不传参数\")\n    @allure.description(\"不传参数\")\n    def test_deleteAccesskey_004(login_start):\n            '''\n            :param createAccesskey: 初始化动作的方法名\n            :param login_start: 登录接口，用户获取token\n            :return:\n            '''\n            token =login_start\n            method=data[\"delete_appkey\"][2][\"Method\"]\n            apiurl=data[\"delete_appkey\"][2][\"ApiUrl\"]\n            response=send_requests(method,apiurl,token)\n            # 断言\n>           assert response['value'] !=True\nE           KeyError: 'value'\n\nmeiziku\\test_accesskey.py:231: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629098227101,
+      "stop" : 1629098227142,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "不传参数",
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nKeyError: 'value'",
+    "statusTrace" : "login_start = '246b7330-4f35-4bfe-8789-831baafa696b'\n\n    @pytest.mark.xfail\n    @allure.feature(\"媒资库后台管理\")\n    @allure.story(\"管理后台access接口\")\n    @allure.title(\"删除appkey-不传参数\")\n    @allure.description(\"不传参数\")\n    def test_deleteAccesskey_004(login_start):\n            '''\n            :param createAccesskey: 初始化动作的方法名\n            :param login_start: 登录接口，用户获取token\n            :return:\n            '''\n            token =login_start\n            method=data[\"delete_appkey\"][2][\"Method\"]\n            apiurl=data[\"delete_appkey\"][2][\"ApiUrl\"]\n            response=send_requests(method,apiurl,token)\n            # 断言\n>           assert response['value'] !=True\nE           KeyError: 'value'\n\nmeiziku\\test_accesskey.py:231: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5918cbc4161e462",
+      "name" : "log",
+      "source" : "d5918cbc4161e462.txt",
+      "type" : "text/plain",
+      "size" : 1487
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台access接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_accesskey"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "29668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_accesskey"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "26508720666c7a7.json",
+  "parameterValues" : [ ]
+}
