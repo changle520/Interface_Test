@@ -1,0 +1,29 @@
+[32mINFO    [0m root:test_accesskey.py:21 初始化操作:创建accesskey
+[32mINFO    [0m root:meizikuApi.py:40 请求头:{'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': 'olsu+o8GTjrtWFEiM6nBHzOt6fA='}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://sit.mam.api.arpara-platform.com:80 "POST /mam-core/manager/v1/access/appkey HTTP/1.1" 200 148
+[32mINFO    [0m root:request.py:63 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:request.py:64 [ api name    ] : appkey
+[32mINFO    [0m root:request.py:65 [ request url ] : http://sit.mam.api.arpara-platform.com/mam-core/manager/v1/access/appkey
+[32mINFO    [0m root:request.py:66 [ request paramer ] : None
+[32mINFO    [0m root:request.py:67 [ request hearder ] : {'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': 'olsu+o8GTjrtWFEiM6nBHzOt6fA='}
+[32mINFO    [0m root:request.py:68 [ request data ] : {'name': '测试08120002'}
+[32mINFO    [0m root:request.py:69 [ request json ] : None
+[32mINFO    [0m root:request.py:70 [ method      ] : POST
+[32mINFO    [0m root:request.py:71 [ status code ] : 200
+[32mINFO    [0m root:request.py:72 [ time total  ] : 0.02441 s
+[32mINFO    [0m root:request.py:75 [ response json ] : {'code': '0', 'value': {'id': '1538850468162330626', 'name': '测试08120002', 'appKey': 'w8UF8gEK', 'appSecret': 'a68c5f958ffe821d52f559183fcb2a8e03e4fa5c'}}
+[32mINFO    [0m root:request.py:78 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:meizikuApi.py:40 请求头:{'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': 'mXCiyl4bnPktBnZhq2JypAwOc2g='}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://sit.mam.api.arpara-platform.com:80 "DELETE /mam-core/manager/v1/access/appkey?id=1538850468162330626 HTTP/1.1" 200 25
+[32mINFO    [0m root:request.py:63 ----------------------------------------------------------------------------------------------------
+[32mINFO    [0m root:request.py:64 [ api name    ] : appkey
+[32mINFO    [0m root:request.py:65 [ request url ] : http://sit.mam.api.arpara-platform.com/mam-core/manager/v1/access/appkey?id=1538850468162330626
+[32mINFO    [0m root:request.py:66 [ request paramer ] : {'id': '1538850468162330626'}
+[32mINFO    [0m root:request.py:67 [ request hearder ] : {'token': '246b7330-4f35-4bfe-8789-831baafa696b', 'access-key': 'ZtOFebmB', 'signature': 'mXCiyl4bnPktBnZhq2JypAwOc2g='}
+[32mINFO    [0m root:request.py:68 [ request data ] : None
+[32mINFO    [0m root:request.py:69 [ request json ] : None
+[32mINFO    [0m root:request.py:70 [ method      ] : DELETE
+[32mINFO    [0m root:request.py:71 [ status code ] : 200
+[32mINFO    [0m root:request.py:72 [ time total  ] : 0.024904 s
+[32mINFO    [0m root:request.py:75 [ response json ] : {'code': '0', 'value': True}
+[32mINFO    [0m root:request.py:78 ----------------------------------------------------------------------------------------------------

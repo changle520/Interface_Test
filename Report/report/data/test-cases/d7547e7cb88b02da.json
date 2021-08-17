@@ -1,0 +1,93 @@
+{
+  "uid" : "d7547e7cb88b02da",
+  "name" : "执行阿里云MPS截图-参数值不正确",
+  "fullName" : "meiziku.test_selfvideo#test_originalvideo_mps_snapshot002",
+  "historyId" : "68b5491095e9272a9b81715a77ad0bd2",
+  "time" : {
+    "start" : 1629164471671,
+    "stop" : 1629164471719,
+    "duration" : 48
+  },
+  "description" : "传入参数id 参数值不正确",
+  "descriptionHtml" : "<p>传入参数id 参数值不正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629164465294,
+      "stop" : 1629164465352,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "传入参数id 参数值不正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85c14a621927dbd0",
+      "name" : "log",
+      "source" : "85c14a621927dbd0.txt",
+      "type" : "text/plain",
+      "size" : 1522
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "9544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7547e7cb88b02da.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "55814d52f1bdc892",
+  "name" : "执行阿里云MPS转码切片-传入参数encryption、id、templateId、duration，参数的值正确",
+  "fullName" : "meiziku.test_selfvideo#test_originalvideo_mps_transcode008",
+  "historyId" : "043116d67b211e204802ee3612a83f31",
+  "time" : {
+    "start" : 1629164470795,
+    "stop" : 1629164470832,
+    "duration" : 37
+  },
+  "description" : "传入参数encryption、id、templateId、duration，参数的值正确",
+  "descriptionHtml" : "<p>传入参数encryption、id、templateId、duration，参数的值正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_start",
+    "time" : {
+      "start" : 1629164465294,
+      "stop" : 1629164465352,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "传入参数encryption、id、templateId、duration，参数的值正确",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9544c4fbabed0e94",
+      "name" : "log",
+      "source" : "9544c4fbabed0e94.txt",
+      "type" : "text/plain",
+      "size" : 1682
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "管理后台自有影片接口"
+  }, {
+    "name" : "feature",
+    "value" : "媒资库后台管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meiziku"
+  }, {
+    "name" : "suite",
+    "value" : "test_selfvideo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-03G54LT"
+  }, {
+    "name" : "thread",
+    "value" : "9544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meiziku.test_selfvideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55814d52f1bdc892.json",
+  "parameterValues" : [ ]
+}

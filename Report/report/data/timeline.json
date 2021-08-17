@@ -1,0 +1,1131 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-03G54LT",
+    "children" : [ {
+      "name" : "9544-MainThread",
+      "children" : [ {
+        "name" : "执行阿里云MPS转码切片",
+        "uid" : "a411b2717b289b44",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470518,
+          "stop" : 1629164470548,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取自有原片列表-分页-不传参数",
+        "uid" : "60f3f3aeb8a447c",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164470337,
+          "stop" : 1629164470469,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "同步阿里云job状态",
+        "uid" : "f88bec19726cfb9f",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164471827,
+          "stop" : 1629164471852,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4k花园同步记录-不传参数",
+        "uid" : "223262b6ce7d021e",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164466707,
+          "stop" : 1629164466772,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-播放格式为1",
+        "uid" : "2ddc5adfe7c45cab",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468259,
+          "stop" : 1629164468321,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS截图-参数值不正确",
+        "uid" : "d7547e7cb88b02da",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164471671,
+          "stop" : 1629164471719,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取4K花园影片列表-分页-不传参数",
+        "uid" : "5ab37a2d216bfcd7",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164467105,
+          "stop" : 1629164467199,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通过影片id删除影片切片-传入不存在的影片id",
+        "uid" : "3bbc23b4b78a9106",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164472300,
+          "stop" : 1629164472345,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-修改配音(id)",
+        "uid" : "e1766df564921f89",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468186,
+          "stop" : 1629164468219,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4k花园同步记录-传入参数page,size、内容都为空",
+        "uid" : "ff8955a4a37b5176",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466942,
+          "stop" : 1629164466967,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑视频类型为2D",
+        "uid" : "ed0b21bb8302aaeb",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468928,
+          "stop" : 1629164468983,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取转码模板列表",
+        "uid" : "29971497659cfe59",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164471922,
+          "stop" : 1629164472022,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录接口--正确的用户名、密码",
+        "uid" : "47087290020b4f77",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164464624,
+          "stop" : 1629164464798,
+          "duration" : 174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取影片详情-参数值不正确",
+        "uid" : "40e7480f9102fb6b",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164469526,
+          "stop" : 1629164469559,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录接口--不传用户名",
+        "uid" : "8768b51c6c1b90d2",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164465220,
+          "stop" : 1629164465262,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "从阿里云同步切片模板",
+        "uid" : "b69c76131cb859cb",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164471855,
+          "stop" : 1629164471880,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS转码切片-传入参数encryption、id、templateId、duration，参数的值正确",
+        "uid" : "55814d52f1bdc892",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470795,
+          "stop" : 1629164470832,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑年代",
+        "uid" : "c354fcf04d78b5d5",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164469290,
+          "stop" : 1629164469327,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取appkey-传入参数q,参数值不正确",
+        "uid" : "d4a1fb262966683e",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164465424,
+          "stop" : 1629164465467,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取影片详情",
+        "uid" : "e587c55395de60f7",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164469332,
+          "stop" : 1629164469394,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-不传参数",
+        "uid" : "68e1eb5719c0e047",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164467723,
+          "stop" : 1629164467770,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4k花园当前同步状态",
+        "uid" : "48ebee324d2fed61",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164466489,
+          "stop" : 1629164466537,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通过影片id删除影片-id是字符串",
+        "uid" : "da98b47a77b57c4d",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164472182,
+          "stop" : 1629164472229,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑评分",
+        "uid" : "a16925af6be3ef3d",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468690,
+          "stop" : 1629164468760,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS转码切片-传入参数encryption、id、templateId、seek，参数的值正确",
+        "uid" : "f8043c902463a29b",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470760,
+          "stop" : 1629164470790,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除appkey-传入参数id,参数值正确",
+        "uid" : "f6459ea6f7162342",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164466152,
+          "stop" : 1629164466201,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑视频类型为不存在的内容",
+        "uid" : "5b628e5ebc1ab678",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164469150,
+          "stop" : 1629164469217,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除appkey-传入参数id,参数值不正确",
+        "uid" : "ba3046b8c3fbca69",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466216,
+          "stop" : 1629164466273,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "从阿里云同步原片",
+        "uid" : "2627596737dae052",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164471883,
+          "stop" : 1629164471916,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取影片详情- 参数值为空",
+        "uid" : "df0ca448e3a7dbb0",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164469588,
+          "stop" : 1629164469618,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取4K花园影片列表-分页-传入参数page,size,q q的值为空",
+        "uid" : "c0650be4d821233f",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164467208,
+          "stop" : 1629164467292,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-播放格式为2",
+        "uid" : "28c71502b3440327",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468334,
+          "stop" : 1629164468413,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-修改演员",
+        "uid" : "f604c3ab5f5276ee",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164467629,
+          "stop" : 1629164467711,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS转码切片-传入参数templateId，参数的值正确",
+        "uid" : "d612f078b78a4251",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470635,
+          "stop" : 1629164470663,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑视频类型为3D上下",
+        "uid" : "381504b87144d5ad",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164469070,
+          "stop" : 1629164469136,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS截图-参数值正确",
+        "uid" : "60113733e5c7910c",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470838,
+          "stop" : 1629164471655,
+          "duration" : 817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除appkey-传入参数id,参数值为空",
+        "uid" : "320efa55d7c7df4a",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466315,
+          "stop" : 1629164466368,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑横板海报",
+        "uid" : "a5e1ead4d44b4b20",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468840,
+          "stop" : 1629164468916,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS截图-不传参数",
+        "uid" : "162b3440d8eeed59",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164471730,
+          "stop" : 1629164471774,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4k花园同步影片",
+        "uid" : "2b9d7a907b72cfa7",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164466435,
+          "stop" : 1629164466479,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建appkey-不传参数",
+        "uid" : "bcf18da74af149b7",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466061,
+          "stop" : 1629164466086,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通过影片id删除影片-传入不存在的影片id",
+        "uid" : "ec5edcb98474b5a6",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164472110,
+          "stop" : 1629164472170,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取4K花园影片列表-分页-传入page,不传size",
+        "uid" : "e0e9ce31db9a3db9",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164467319,
+          "stop" : 1629164467359,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通过影片id删除影片切片-传入存在的影片id",
+        "uid" : "ac515dde43d0a55e",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164472265,
+          "stop" : 1629164472297,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-修改竖版海报",
+        "uid" : "f42fe349dd841649",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468221,
+          "stop" : 1629164468256,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除appkey-不传参数",
+        "uid" : "b82f5f33a9fd71c6",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466396,
+          "stop" : 1629164466422,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4k花园同步记录-传入参数page,size、page的内容为1,size的内容为空",
+        "uid" : "90a8da925e64de33",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466783,
+          "stop" : 1629164466857,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录接口--正确的用户名、错误的密码",
+        "uid" : "6e3cb0bdf93df26c",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164465097,
+          "stop" : 1629164465125,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4k花园同步记录-传入参数page,size、page的内容为空,size的内容为20",
+        "uid" : "fa50360a7e1680c7",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466891,
+          "stop" : 1629164466923,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-传入参数id,参数值为空",
+        "uid" : "53d33ca9cc8943f0",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164467829,
+          "stop" : 1629164467864,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录接口--用户名、密码为空",
+        "uid" : "e1715f3c9bbf2a01",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164465186,
+          "stop" : 1629164465209,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取job列表-分页",
+        "uid" : "fa973ee72ec15bd1",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164467538,
+          "stop" : 1629164467616,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取影片标准主M3U8-传入存在的影片id",
+        "uid" : "75ae9cf20e3add29",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164472357,
+          "stop" : 1629164472410,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取appkey-传入参数q,参数值为空",
+        "uid" : "2ad1e4258955968f",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164465474,
+          "stop" : 1629164465631,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取appkey-传入参数q,参数值正确",
+        "uid" : "633c4b8e902f11cd",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164465353,
+          "stop" : 1629164465417,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取自有原片列表-分页-传入参数page,size,q q的值为空",
+        "uid" : "a20c4b1548568c61",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164469722,
+          "stop" : 1629164469912,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取自有原片列表-分页-传入参数page",
+        "uid" : "8ca412ab0f388dc1",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164469929,
+          "stop" : 1629164470060,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取4K花园影片列表-分页-传入size,不传page",
+        "uid" : "1331dbeb92054fdd",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164467381,
+          "stop" : 1629164467413,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-修改背景图",
+        "uid" : "a5f676e04bc21386",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164467895,
+          "stop" : 1629164467958,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS转码切片-传入参数encryption，参数的值正确",
+        "uid" : "14ff807f17277200",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470609,
+          "stop" : 1629164470632,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-修改描述",
+        "uid" : "d6211f9ba73d4903",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164467967,
+          "stop" : 1629164468035,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取appkey-不传参数",
+        "uid" : "f9f0ec5b8ad8c27a",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164465646,
+          "stop" : 1629164465745,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑短描述",
+        "uid" : "12741b68d659fd4",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468771,
+          "stop" : 1629164468826,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑地区",
+        "uid" : "d5cd17637bcb73ae",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468622,
+          "stop" : 1629164468678,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-id不存在",
+        "uid" : "404390bddab2f2ec",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164468048,
+          "stop" : 1629164468111,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取影片标准主M3U8-传入不存在的影片id",
+        "uid" : "5bfc18b1ca7ea8a6",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164472421,
+          "stop" : 1629164472477,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS转码切片-传入参数encryption、id、templateId、seek、duration，参数的值正确",
+        "uid" : "8d91c3adc7cf4767",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470721,
+          "stop" : 1629164470754,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录接口--错误的用户名、正确的密码",
+        "uid" : "af0cc886f3867d9f",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164465132,
+          "stop" : 1629164465167,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建appkey-传入参数q,参数值在数据库中已存在",
+        "uid" : "5c20ee81ea422ed6",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164465884,
+          "stop" : 1629164465992,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取4K花园影片列表-分页-传入参数page,size,q 参数值正确",
+        "uid" : "dabf7aeb6df52fde",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164466991,
+          "stop" : 1629164467099,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-播放格式传参为字符串",
+        "uid" : "d3d1e5852a712049",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164468511,
+          "stop" : 1629164468568,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑片名",
+        "uid" : "5dab8d6b0a4f1236",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164469255,
+          "stop" : 1629164469288,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-修改导演",
+        "uid" : "8f9ea2299e97af76",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468148,
+          "stop" : 1629164468183,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS转码切片-不传参数",
+        "uid" : "f3880325db54fbc2",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164470551,
+          "stop" : 1629164470570,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-编辑视频类型为3D左右",
+        "uid" : "366609505e5c7035",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468995,
+          "stop" : 1629164469057,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑影片详情-播放格式为3",
+        "uid" : "f77383c970526f59",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164468424,
+          "stop" : 1629164468503,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "执行阿里云MPS转码切片-传入参数id，参数的值正确",
+        "uid" : "175dc8f9bc87d469",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164470669,
+          "stop" : 1629164470712,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建appkey-传入参数q,参数值在数据库中不存在",
+        "uid" : "5fe179ee6c019b33",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164465760,
+          "stop" : 1629164465877,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取配置项",
+        "uid" : "2c55f8fda958f4d5",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164467431,
+          "stop" : 1629164467527,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录接口--错误的用户名、密码",
+        "uid" : "8ce4b0888706b162",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164464816,
+          "stop" : 1629164464895,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取自有原片列表-分页-传入参数size",
+        "uid" : "80d1a5906a8676bf",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164470119,
+          "stop" : 1629164470306,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4k花园同步记录-传入参数page,size、参数值正确",
+        "uid" : "d91a80dc3ef6c23b",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164466547,
+          "stop" : 1629164466695,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取影片详情-不传任何参数",
+        "uid" : "91411885c9df6cde",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164469411,
+          "stop" : 1629164469466,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取自有原片列表-分页",
+        "uid" : "9f894ea16416d40",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164469636,
+          "stop" : 1629164469710,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通过影片id删除影片-传入正确的影片id",
+        "uid" : "1e428758b8c5391c",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629164472031,
+          "stop" : 1629164472099,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建appkey-传入参数q,参数值为空",
+        "uid" : "78cf31802ef9bd24",
+        "parentUid" : "8a0f6f936c172cbeb3a9c4b6980de63e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629164466014,
+          "stop" : 1629164466049,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a0f6f936c172cbeb3a9c4b6980de63e"
+    } ],
+    "uid" : "b32ced8031ccecd473757b0ed1e31334"
+  } ]
+}
